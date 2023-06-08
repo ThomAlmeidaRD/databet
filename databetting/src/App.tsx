@@ -1,15 +1,14 @@
+import notify from "./components/Notify"
 
 function App() {
-
-
-  function notify(){
-
-  }
-
+  
   return (
     <>
       <h1>Hello</h1>
-      <button onClick={notify}>Notify me!</button>
+      <button onClick={() => notify("Databetting", {
+        body: "Novo Alerta de partida",
+        icon: "/vite.svg"
+      })}>Notify me!</button>
     </>
   )
 }
