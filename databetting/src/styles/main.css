@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-content {
+    width: 90%;
+    padding: 25px 0px;
+}
+
+.container h1 {
+    padding: 10px 0px;
+    line-height: 120%;
+    max-width: 500px;
+    color: #241d1d;
+}
+
+.container p {
+    padding: 10px 0px;
+    line-height: 150%;
+    font-size: 1.09em;
+    color: #242424;
+}
+
+.container input[type="text"],
+select {
+    width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #242424;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #535353;
+}
+
+.container input[type="text"]::placeholder {
+    padding-left: 5px;
+    color: #242424;
+    font-weight: 600;
+}
+
+option {
+    color: #241d1d;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #0071ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.match-teams {
+    margin-top: 25px;
+    padding: 5px;
+    border: 1px solid #0071ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+.match-teams section {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.match-teams img {
+    width: 60px;
+    padding: 10px;
+}
+
+.match-teams h2 {
+    font-size: 1.2em;
+    color: #242424;
+}
+
+.container-content h4 {
+    padding: 25px 5px;
+}
+
+.shadow {
+    box-shadow: 1px 1px 3px #24242422;
+}
+
+.pre-alert {
+    border: 1px solid #0073ffb3;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 10px;
+    margin: 5px 0px;
+}
+
+.pre-alert h4,
+.pre-alert p {
+    padding: 0px;
+}
+
+.pre-alert p {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #303030;
+}
+
+.player-img img {
+    width: 70px;
+}
