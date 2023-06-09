@@ -38,7 +38,7 @@ function App() {
           <h1>Bem-vindo!, selecione seu time do coração</h1>
           <p>Veja todas as estatísticas do seu time, crie e receba alertas personalizados antes e durante as patridas para fazer as melhores apostas da semana! </p>
 
-          <input type="text" placeholder="Seu nome" id="username" />
+          <input type="text" placeholder="Seu nome" />
           <select name="team" id="" placeholder="Time do Coração" required>
             <option value="selecione">
               <h3>Time do Coração</h3>
