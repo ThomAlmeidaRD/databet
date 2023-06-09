@@ -4,7 +4,7 @@ import LinkTo from "./components/LinkTo"
 function App() {
 
   function verifyUser() {
-    if (localStorage.getItem('Username') === '') {
+    if (localStorage.getItem('Username') === '' || localStorage.length < 1) {
       console.log('usuario nulo')
     } else {
       console.log('usuario existente')
