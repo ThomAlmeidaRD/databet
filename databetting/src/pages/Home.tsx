@@ -6,7 +6,8 @@ export default function Home() {
 
     function loadUsername() {
         if (username.current) {
-            username.current.innerText = localStorage.getItem('Username')
+            let dbUser = localStorage.getItem('Username')!
+            username.current.innerText = 'Olá, ' + dbUser
         }
     }
 
@@ -15,7 +16,8 @@ export default function Home() {
     return (
         <div className="container">
             <div className="container-content">
-                <h2>Olá, <b ref={username} id="username"></b></h2>
+
+                <p ref={username} id="username"></p>
 
                 <div className="match-teams shadow">
                     <section className="team-infos">
