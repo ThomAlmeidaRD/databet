@@ -130,3 +130,25 @@ button {
     font-weight: bold;
     color: #2a2a2a;
 }
+
+.alerts {
+    display: none;
+    border: 1px solid #ddd;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.alerts h2 {
+    font-size: 1.2em;
+    color: #242424;
+}
+
+.alerts section {
+    display: flex;
+    align-items: center;
+}
+
+.alerts img {
+    width: 40px;
+    margin-right: 10px;
+}
